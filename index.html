@@ -1,0 +1,203 @@
+<html>
+<script>
+function openTab(tabName) {
+   var i;
+   var x = document.getElementsByClassName("tab");
+   for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+   }
+   document.getElementById(tabName).style.display = "block";
+}
+</script>
+<script>var whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script><script src="https://wow.zamimg.com/widgets/power.js"></script>
+<style>
+html { background-color: #000; };
+.divTable{ display: table; float: left; margin: 10px 10px; }
+.divTableRow { display: table-row; background-color: #000}
+.divTableRow:hover { background-color: #222; }
+.divTableHeading { background-color: #EEE; display: table-header-group; }
+.divTableCell, .divTableHead { border: 1px solid #999999; display: table-cell; padding: 3px 10px; }
+.divPlayer { border: 1px solid #999999; display: table-cell; width: 700px; padding: 3px 10px; text-align: left; vertical-align: middle; word-wrap: normal; color: #ffffff; }
+.divClass { border: 1px solid #999999; display: table-cell; padding: 3px 10px; text-align: center; vertical-align: middle; color: #ffffff; }
+.divDKP { border: 1px solid #999999; display: table-cell; width: 200px%; padding: 3px 10px; text-align: center; vertical-align: middle; color: #ffffff; }
+.divPlayerHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 50%; padding: 3px 10px; text-align: left; background-color: #bbb; }
+.divClassHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 150px; padding: 3px 10px; text-align: center; background-color: #bbb; }
+.divDKPHeader { border: 1px solid #999999; display: table-cell; font-weight: bold; width: 30%; padding: 3px 10px; text-align: center; background-color: #bbb; }
+.divTableHeading { background-color: #EEE; display: table-header-group; font-weight: bold; }
+.divTableFoot { background-color: #EEE; display: table-footer-group; font-weight: bold; }
+.divTableBody { display: table-row-group; }
+</style>
+
+<br /><br />
+<div>
+   <button onclick="openTab('DKP')">DKP Table</button>
+   <button onclick="openTab('DKPHistory')">DKP History</button>
+   <button onclick="openTab('LootHistory')">Loot History</button>
+</div>
+<br /><br />
+<div id="DKP" class="tab"><div class="divTable" style="width: 30%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Player</div>
+         <div class="divClassHeader">Class</div>
+         <div class="divDKPHeader">DKP</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Ajgata</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
+         <div class="divDKP">5</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Aracia</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Claire</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Daédria</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Deórsa</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Elynthea</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg" height="24" width="24" /></div>
+         <div class="divDKP">11</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Frejn</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Gilette</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Grillette</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">1</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Jakop</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Khitt</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Linle</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Malkhaz</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Niarja</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Pharis</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Rawrsome</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Rhul</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Skyfoogle</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Syrhierys</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Victoria</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer">Yizari</div>
+         <div class="divClass" style="width: 150px;"><img src="https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg" height="24" width="24" /></div>
+         <div class="divDKP">0</div>
+      </div>
+   </div>
+</div>
+</div>
+<div id="DKPHistory" class="tab" style="display:none;"><div class="divTable" style="width: 95%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Players</div>
+         <div class="divClassHeader" style="width: 4%;">DKP</div>
+         <div class="divDKPHeader">Date/Reason</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Ajgata, </div>
+         <div class="divClass" style="width: 4%;">5</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">DKP Adjust<br />(04/08/21 12:46:23) </div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Elynthea, </div>
+         <div class="divClass" style="width: 4%;">10</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">DKP Adjust<br />(04/08/21 12:42:30) </div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Elynthea, </div>
+         <div class="divClass" style="width: 4%;">2</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">DKP Adjust<br />(04/08/21 12:24:16) </div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Grillette, </div>
+         <div class="divClass" style="width: 4%;">-2</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">Unexcused Absence<br />(04/07/21 14:23:24) </div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="font-size: 0.7em; width: 71%;">Grillette, </div>
+         <div class="divClass" style="width: 4%;">3</div>
+         <div class="divDKP" style="width: 25%; font-size: 0.7em;">DKP Adjust<br />(04/07/21 14:13:50) </div>
+      </div>
+   </div>
+</div>
+</div>
+<div id="LootHistory" class="tab" style="display:none;"><div class="divTable" style="width: 50%;border: 1px solid #000;">
+   <div class="divTableBody">
+      <div class="divTableRow">
+         <div class="divPlayerHeader">Loot</div>
+         <div class="divClassHeader">Player</div>
+         <div class="divDKPHeader">From</div>
+      </div>
+      <div class="divTableRow">
+         <div class="divPlayer" style="width: 40%;"><a href="https://classic.wowhead.com/item=13464" data-wowhead="item=13464"></a> (-1 DKP)</div>
+         <div class="divClass" style="width: 20%;">Elynthea</div>
+         <div class="divDKP" style="width: 40%; font-size: 0.7em;">Molten Core: Lucifron<br />(04/08/21 12:26:21) </div>
+      </div>
+   </div>
+</div>
+</div>
+</html>
